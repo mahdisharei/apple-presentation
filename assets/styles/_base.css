@@ -1,0 +1,11 @@
+.grid {
+    display: grid;
+    gap: 5px;
+    height: 600px;
+
+    grid-template: repeat(12, 1fr) / repeat(12, 1fr);
+  }
+  .item {
+    background-color: gray;
+    border-radius: 5px;
+  }
